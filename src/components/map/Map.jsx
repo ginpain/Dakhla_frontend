@@ -511,8 +511,9 @@ function Map() {
         style={{ zIndex: 1 }}
       >
         <TileLayer
-          attribution='&copy; <a href="https://www.mapbox.com/about/maps/">Mapbox</a>'
-          url={`https://api.mapbox.com/styles/v1/mapbox/satellite-v9/tiles/{z}/{x}/{y}?access_token=${mapboxAccessToken}`}
+          // attribution='&copy; <a href="https://www.mapbox.com/about/maps/">Mapbox</a>'
+          // url={`https://api.mapbox.com/styles/v1/mapbox/satellite-v9/tiles/{z}/{x}/{y}?access_token=${mapboxAccessToken}`}
+          url="https://www.google.cn/maps/vt?lyrs=s@189&gl=cn&x={x}&y={y}&z={z}"
         />
         <ZoomControl position="topright" />
         <FeatureGroup>
