@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.nav-link {
+    @apply text-gray-700 hover:text-blue-600 font-medium py-2 px-4 rounded-full transition duration-300 ease-in-out;
+}
+.video {
+    position: absolute;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+:root {
+    --blue: #ffe100;
+    --green: #6ecdfc;
+    --yellow: #11e31f;
+  }
+
+  
